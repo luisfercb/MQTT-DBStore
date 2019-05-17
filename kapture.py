@@ -3,11 +3,11 @@ import datetime
 import paho.mqtt.client as mqtt
 
 # MQTT Settings
-MQTT_Broker = "192.168.1.50"
+MQTT_Broker = "localhost"
 MQTT_Port = 1883
 Keep_Alive_Interval = 45
 MQTT_Topic = "sala/temperatura"
-dataBase = "/home/luisfer/Documents/IOT/DataBase/iot.db"
+dataBase = "./DataBase/iot.db"
 cursor = ""
 
 
